@@ -5,6 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using LundSchoolLocations.Models.Model;
 using Microsoft.EntityFrameworkCore;
 
 namespace LundSchoolLocations.Models
@@ -23,14 +24,5 @@ namespace LundSchoolLocations.Models
         }
     }
 
-    [Table("Location")]
-    public class Location
-    {
-        [Key]
-        public int Id { get; set; }
-        public int LocationId { get; set; }
-        public string Street { get; set; }
-        public string PostCode { get; set; }
-        public string Latitude { get; set; }
-    }
+    
 }

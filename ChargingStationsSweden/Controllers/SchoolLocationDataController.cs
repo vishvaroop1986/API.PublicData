@@ -1,4 +1,5 @@
-﻿using LundSchoolLocations.Models;
+﻿using LundSchoolLocations.Helper;
+using LundSchoolLocations.Models;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using System.Text.Json;
@@ -11,6 +12,11 @@ namespace ChargingStationsSweden.Controllers
     [ApiController]
     public class SchoolLocationDataController : ControllerBase
     {
+        private ILocationOperations _locationOperations;
+        public SchoolLocationDataController(ILocationOperations locationOperations )
+        {
+            _locationOperations = locationOperations;
+        }
         // GET: api/<SchoolLocationDataController>
         [HttpGet]
         public async Task<SchoolData> GetAsync()

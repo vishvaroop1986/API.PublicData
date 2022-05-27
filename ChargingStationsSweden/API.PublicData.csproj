@@ -17,7 +17,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ChargingStations.Models\ChargingStations.Models.csproj" />
-    <ProjectReference Include="..\LundSchoolLocations.Models\LundSchoolLocations.Models.csproj" />
+    <ProjectReference Include="..\LundSchoolLocations.Helper\LundSchoolLocations.Helper.csproj" />
+    <ProjectReference Include="..\LundSchoolLocations.Models\LundSchoolLocations.EF.csproj" />
   </ItemGroup>
 
 </Project>

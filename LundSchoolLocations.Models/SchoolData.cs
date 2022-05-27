@@ -20,8 +20,8 @@
         public string source { get; set; }
         public string type { get; set; }
         public string operation { get; set; }
-        public string lat { get; set; }
+        public string latitude { get; set; }
         public string url { get; set; }
-        public string _long { get; set; }
+        public string longitude { get; set; }
     }
 }
