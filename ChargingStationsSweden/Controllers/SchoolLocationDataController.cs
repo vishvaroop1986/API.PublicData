@@ -42,7 +42,7 @@ namespace ChargingStationsSweden.Controllers
         public void Put(int id, [FromBody] string value)
         {
         }
-
+            
         // DELETE api/<SchoolLocationDataController>/5
         [HttpDelete("{id}")]
         public void Delete(int id)

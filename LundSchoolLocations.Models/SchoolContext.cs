@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
@@ -22,11 +23,14 @@ namespace LundSchoolLocations.Models
         }
     }
 
+    [Table("Location")]
     public class Location
     {
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
+        [Key]
         public int Id { get; set; }
+        public int LocationId { get; set; }
         public string Street { get; set; }
         public string PostCode { get; set; }
+        public string Latitude { get; set; }
     }
 }
