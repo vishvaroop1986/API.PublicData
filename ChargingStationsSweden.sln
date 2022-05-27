@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChargingStations.Models", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LundSchoolLocations.Models", "LundSchoolLocations.Models\LundSchoolLocations.Models.csproj", "{401593DE-EA5E-44CA-A505-DDFA44358776}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "PublicData", "PubllicData\PublicData.sqlproj", "{C5A6122A-C5B5-4E1D-B7DA-BD54EAD86A24}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,12 @@ Global
 		{401593DE-EA5E-44CA-A505-DDFA44358776}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{401593DE-EA5E-44CA-A505-DDFA44358776}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{401593DE-EA5E-44CA-A505-DDFA44358776}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5A6122A-C5B5-4E1D-B7DA-BD54EAD86A24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5A6122A-C5B5-4E1D-B7DA-BD54EAD86A24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5A6122A-C5B5-4E1D-B7DA-BD54EAD86A24}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C5A6122A-C5B5-4E1D-B7DA-BD54EAD86A24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5A6122A-C5B5-4E1D-B7DA-BD54EAD86A24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5A6122A-C5B5-4E1D-B7DA-BD54EAD86A24}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
