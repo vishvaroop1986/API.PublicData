@@ -1,5 +1,6 @@
 ﻿using LundSchoolLocations.Helper;
 using LundSchoolLocations.Models;
+using LundSchoolLocations.Models.Model;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using System.Text.Json;
@@ -39,8 +40,9 @@ namespace ChargingStationsSweden.Controllers
 
         // POST api/<SchoolLocationDataController>
         [HttpPost]
-        public void Post([FromBody] string value)
+        public void Post([FromBody] Location location)
         {
+            _locationOperations.InsertLocation(location);
         }
 
         // PUT api/<SchoolLocationDataController>/5
