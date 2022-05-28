@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32516.85
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.PublicData", "ChargingStationsSweden\API.PublicData.csproj", "{D83764B3-2A40-4753-A938-B40B91723FC8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestfulPublicAPI", "ChargingStationsSweden\RestfulPublicAPI.csproj", "{D83764B3-2A40-4753-A938-B40B91723FC8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChargingStations.Models", "ChargingStations.Models\ChargingStations.Models.csproj", "{DA13188F-8B9C-4226-9405-4B27B460C58E}"
 EndProject
